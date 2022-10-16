@@ -2,15 +2,14 @@
 $title="FEATURES OF FRIENDS";
 
 $today= date("d.m.y");
-$time = date("g:i:s", time()+10800);
+$time = date("G:i:s", time()+10800);
 
 $menu_list = ["Главная", "Актеры", "О героях сериала", "Контакты"];
 $id_list = ["header", "photos", "about_heroes", "footer-info"];
 
 $friends;
 
-$s = date("s");
-$os = (int)$s % 2;
+
 
 if(((int)date("s") % 2) == 0){
     $friends = "friends1";

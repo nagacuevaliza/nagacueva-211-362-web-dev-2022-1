@@ -2,7 +2,7 @@
 $title="Обратная связь";
 
 $today= date("m.d.y");
-$time = date("h:i:s", time()+10800);
+$time = date("G:i:s");
 ?>
 
 <?php require("elements/form_header.php")?>

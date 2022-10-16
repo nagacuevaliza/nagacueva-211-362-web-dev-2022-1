@@ -16,12 +16,20 @@
             <?php for($i = 0; $i < count($menu_list); $i++): ?>
             <?= '<li class="menu_item"><a href="#',$id_list[$i],'">',$menu_list[$i],'</a></li>' ?>
             <?php endfor ?>
-            <li class="menu_item"><a href=<?php $link = "./feedback_form.php"; $link_name = "Обратная связь";
-              echo $link ?>><?= $link_name ?></a>
-            </li>
-            <li class="menu_item"><a href=<?php $link = "./login_form.php"; $link_name = "Войти";
-              echo $link ?>><?= $link_name ?></a>
-            </li>
+            <li class="menu_item">
+            <a href=<?php 
+            $link = "./feedback_form.php";
+            $link_title = "Обратная связь";
+            echo $link
+          ?>> <?=  $link_title?> </a>
+          </li>
+          <li class="menu_item">
+            <a href=<?php 
+            $link = "./login_form.php";
+            $link_title = "Войти";
+            echo $link
+          ?>> <?=  $link_title?> </a>
+          </li>
             </ul>
           </nav>
         </div>
