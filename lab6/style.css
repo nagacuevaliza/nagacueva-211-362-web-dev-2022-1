@@ -14,7 +14,10 @@ body {
 .header {
   background-color: #a840ff;
   height: 80px;
-  /* position: fixed; */
+}
+
+div.wrap {
+  background-color: #a840ff;
 }
 
 .wrap {
@@ -28,11 +31,15 @@ body {
   align-items: center;
 }
 
+div.logo {
+  text-align: center;
+}
+
 .logo {
   font-weight: bold;
   font-size: 260%;
   color: rgb(238, 238, 18);
-  text-align: right;
+  text-align: center;
   margin-bottom: 0px;
 }
 
@@ -61,6 +68,7 @@ a {
 main {
   padding: 20px 40px;
   background-color: #c6a6e1;
+  text-align: center;
 }
 
 h1 {
@@ -192,13 +200,89 @@ h1 {
 
 /* FORMS */
 
+
+
 /* FEEDBACK */
 form {
   display: flex;
+  /* text-align: left; */
   flex-direction: column;
   box-shadow: 0 0 10px #a840ff;
   padding: 30px 40px 20px 40px;
   background-color: #a840ff;
+  width: 50%;
+}
+
+.form_div {
+  float: left;
+  padding: .5em;
+  /* text-align: center; */
+}
+
+.field {
+  /* clear:both; 
+  text-align:right;
+  line-height:25px; */
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+
+label {
+  padding-right: 10px;
+  /* float:left; */
+  flex: 1;
+  padding: .5em 1em .5em 0;
+}
+
+input {
+  width: 50%;
+  padding: .5em;
+  flex: 2;
+}
+
+.rbinput {
+  padding: 0;
+  left: 0;
+}
+
+textarea {
+  width: 350px;
+  height: 100px;
+  padding: .5em;
+  flex: 2;
+}
+
+select {
+  width: 50%;
+  padding: .5em;
+  flex: 2;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  color: black;
+  border-radius: 10%;
+  height: 35px;
+  border: 1px solid #a840ff;
+  background-color: rgb(238, 238, 18);
+  font-size: 16px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.answer {
+  text-align: center;
+}
+
+.radio-wrap {
+  margin-left: 0px;
 }
 
 h2 {
@@ -212,12 +296,10 @@ p {
 
 .feedback {
 	margin: 40px auto;
-  width: 400px;
+  width: 600px;
 }
 
-label {
-  margin-bottom: 10px;
-}
+
 
 #fio {
   padding: 10px;
@@ -231,9 +313,7 @@ label {
   margin-bottom: 20px;
 }
 
-.radio-wrap {
-  margin: 5px 0;
-}
+
 
 select {
   padding: 10px;
@@ -241,8 +321,18 @@ select {
   margin-bottom: 20px;
 }
 
-#rb1, #rb2, #rb3 {
+.rb {
+  padding-right: 0px;
+  padding: 0 0 0 0;
+  text-align: left;
+}
+
+#rb1, #rb2 {
   cursor: pointer;
+  
+  /* float:left; */
+  /* flex: 1; */
+  
 }
 
 #text {
@@ -258,27 +348,11 @@ select {
 }
 
 #checkbox_PD {
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 0px;
+  margin-bottom: 0px;
+  
 }
 
-.button {
-  text-align: center;
-}
-
-button {
-  cursor: pointer;
-  color: black;
-  border-radius: 1%;
-  height: 35px;
-  border: 1px solid #a840ff;
-  background-color: rgb(238, 238, 18);
-  font-size: 16px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-}
 
 /* LOGIN */
 .login {

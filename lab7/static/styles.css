@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Dangrek', cursive;
+}
+
+main {
+    padding: 20px 40px;
+    background-color: #c6a6e1;
+}
+
+.calc-container {
+    border: 1px solid #a840ff;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 0.5%;
+    width: 250px;
+    background-color: #FFFF00;
+    border-radius: 5%;
+}
+
+input {
+  border-radius: 10%;
+  height: 75px;
+  width: 525%;
+  border: 1px solid #a840ff;
+  background-color: rgb(237, 237, 129);
+  font-size: 16px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.screen {
+  border-radius: 10%;
+  border: 1px solid #a840ff;
+  background-color: rgb(237, 237, 129);
+  padding: 10px;
+  font-size: 16px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.key {
+  cursor: pointer;
+  color: black;
+  border-radius: 10%;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #a840ff;
+  background-color: rgb(224, 224, 123);
+  font-size: 16px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+  .digit {
+    background-color:  #c6a6e1;
+  }
+
+  .operation {
+    background-color:  #a840ff;
+  }
+
+strong {
+  font-size: x-large;
+  font-family: 'Dangrek';
+}
+
+/* .screen {
+  max-width: 100%;
+} */
+
+span {
+  max-width: 300px;
+  width: 300px;
+}
+
+.result {
+  max-width: 300px;
+  width: 300px;
+} 
+
+  /* tr {
+    width: 500px;
+  } */
