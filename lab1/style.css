@@ -177,6 +177,8 @@ h1 {
 .footer {
   background-color: #a840ff;
   padding: 30px;
+  position: fixed;
+  bottom: 0px;
 }
 
 .footer ul {
