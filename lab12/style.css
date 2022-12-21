@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* ================ Header ================*/
+.header {
+  background-color: #0dcaf0;
+  height: 100vh;
+  padding: 100px 0;
+  position: relative;
+}
+
+.title {
+  font-size: 100px;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(218, 48, 48),
+    rgb(179, 39, 48)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 25px rgba(211, 72, 114, 0.5);
+  font-weight: bold;
+}
+
+.suptitle {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.name {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  /* font-style: italic; */
+}
+
+.group {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  /* font-style: italic; */
+}
+
+/* ================ About ================*/
+.about {
+  padding: 50px 0;
+}
+
+.about__title {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.about__suptitle {
+  margin: 30px 0;
+}
+
+.card {
+  min-height: 150px;
+}
+
+/* ================ Footer ================*/
+.footer {
+  background-color: rgb(26, 26, 26);
+  padding: 100px 0;
+}
+
+.footer__title {
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(218, 48, 48),
+    rgb(179, 39, 48)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+}
+
+.fa-brands {
+  font-size: 50px;
+  margin: 0 15px;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(218, 48, 48),
+    rgb(179, 39, 48)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(218, 48, 48),
+    rgb(179, 39, 48)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer__suptitle {
+  color: rgb(159, 159, 159);
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.social {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.arr {
+  color: rgb(159, 159, 159);
+  font-size: 14px;
+}
+
+.btn {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(218, 48, 48),
+    rgb(179, 39, 48)
+  );
+}
+
+.brands_right {
+  font-size: 30px; 
+  color: rgb(218, 48, 48);
+}
